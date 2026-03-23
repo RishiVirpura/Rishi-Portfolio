@@ -13,9 +13,9 @@ export const About = () => {
 
   const Languages = ["Python", "R", "HTML", "CSS", "C", "Javascript"];
 
-  const Libraries = ["Pandas", "Keras", "Scikit-learn", "Flask", "Matplotlib", "React", "React Native"];
+  const Libraries = ["Pandas", "Keras", "Scikit-learn", "Flask", "Matplotlib", "React", "React Native", "Dash"];
 
-  const Technologies = ["Git", "Github", "Visual Studio Code", "MySQL", "REST APIs", "R Studio"];
+  const Technologies = ["Git", "Github", "Visual Studio Code", "SQL", "AWS", "REST APIs", "R Studio"];
 
   return (
     <section
@@ -30,9 +30,8 @@ export const About = () => {
           </h2>
 
           <p className="text-violet-100 mb-6">
-              I am currently open for full-time work and am planning to start studying for my master's degree at the University of Connecticut in the fall!
-              When I'm not working or studying, I enjoy reading all genres of books and comics, weight lifting, cooking, and playing video games.
-              Recently I've been reading the Red Rising series, and playing Civilization VI.
+              I am currently open for full-time work and have been studying for an AWS Solutions Architect Certificate!
+              Recently I've been reading Catch 22, and playing Slay the Spire 2.
             </p>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
@@ -130,7 +129,17 @@ export const About = () => {
                     Undergraduate Research Assistant at the University of Connecticut (May 2024 - May 2025){" "}
                   </h4>
                   <p>
-                    Developed a React Native app with Expo SDK to capture and export multi-sensor smartphone data (accelerometer, gyroscope, GPS, camera) for volunteers to use.
+                  Built a full-stack application using React Native, Python Flask, and MySQL to collect, standardize, and retrieve multi-sensor data — configuring backend integrations and resolving technical blockers across the full stack.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Technical Instructor at The Coder School (September 2025 - Present){" "}
+                  </h4>
+                  <p>
+                  Served as the primary technical resource for 10+ K12 students per week, resolving coding errors through systematic troubleshooting and communicating solutions clearly to clients (parents and students).
                   </p>
                 </div>
 
@@ -140,7 +149,7 @@ export const About = () => {
                     Undergraduate Teacher Assistant at the University of Connecticut (August 2024 - May 2025){" "}
                   </h4>
                   <p>
-                    Mentored 60+ students in the basic principles of computer science, Python, and R. 
+                  Supported 60+ students across weekly office hours, diagnosing individual coding misconceptions and delivering targeted, actionable feedback — consistently resolving high volumes of technical questions per session. 
                   </p>
                 </div>
               </div>

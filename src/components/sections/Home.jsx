@@ -16,8 +16,7 @@ export const Home = () => {
           </h1>
 
           <p className="text-violet-100 text-lg mb-8 max-w-lg mx-auto">
-          I am an aspiring software engineer and data analyst with a strong foundation in Python, machine learning, and web development. 
-          I am experienced in full-stack projects, sensor-based applications, and predictive modeling.
+          Software Engineer and Technical Instructor with experience solving technical challenges alongside non-technical stakeholders. Proven ability to debug complex issues across full-stack systems, communicate solutions clearly, and manage multiple concurrent requests in fast-paced environments. Experienced in building data-driven applications, supporting end users, and translating ambiguous problems into practical, working solutions.
           </p>
           <div className="flex justify-center space-x-4">
             <a
