@@ -58,7 +58,7 @@ export const Projects = () => {
                   <span
                     key={key}
                     className="
-                      bg-emerald-500/10 text-emerald-500 py-1 px-3 
+                      bg-emerald-400/10 text-emerald-400 py-1 px-3 
                       rounded-full text-sm
                       transition
                       hover:bg-blue-500/20 hover:-translate-y-0.5
@@ -72,7 +72,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/RishiVirpura/Rishi-Portfolio"
-                  className="text-emerald-500 hover:text-blue-300 transition-colors my-4"
+                  className="text-emerald-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
@@ -97,7 +97,7 @@ export const Projects = () => {
                     <span
                       key={tech}
                       className="
-                      bg-emerald-500/10 text-emerald-500 py-1 px-3 
+                      bg-emerald-400/10 text-emerald-400 py-1 px-3 
                       rounded-full text-sm
                       transition
                       hover:bg-blue-500/20 hover:-translate-y-0.5
@@ -112,7 +112,37 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/GzzDaniel/SDP051"
-                  className="text-emerald-500 hover:text-blue-300 transition-colors my-4"
+                  className="text-emerald-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-emerald-400/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl text-violet-100 font-bold mb-2">Bayesian Optimization Benchmarking on Material Sciences</h3>
+              <p className="text-violet-100 mb-4">
+              Implemented a pool based active learning framework to optimize mechanical toughness across 600 design configurations.
+              Achieved a peak Acceleration Factor of 4.0 and Enhancement Factor of 4.5 over a Baseline Model.
+
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Python", "SKLearn", "Pandas", "Numpy", "MatPlotLib", "Seaborn"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-emerald-400/10 text-emerald-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/RishiVirpura/CSE-5602-Machine-Learning-in-Physical-Sceinces-Final-Project"
+                  className="text-emerald-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
